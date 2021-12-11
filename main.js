@@ -147,6 +147,7 @@ client.on('messageCreate', async message => {
 	}
 })
 
+var TOKEN = require('./tokens.json');
 
 
-client.login('OTE5MDQzMTcwNDQ3MjY5OTcw.YbQDpg.6j77qT9w-xjvxqxILZCH0vIOVbc');
+client.login(TOKEN.token);
