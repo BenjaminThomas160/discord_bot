@@ -153,7 +153,6 @@ client.on('messageCreate', async message => {
 			⠀⠀⠀⠀⠀⠀⠀⠈⠛⠻⠿⠿⠿⠿⠋⠁⠀
 			`);
 	}
-	// sussy wussy
 	if (cmd ===  ";)") {
 		num = Math.floor(Math.random() * 100);
 		name = message.member.user.toString();
@@ -161,7 +160,7 @@ client.on('messageCreate', async message => {
 			num = 100;
 		}
 		console.log(name);
-		message.channel.send(name + " is " + num + "% sus :smirk:");
+		message.channel.send(name + " is " + num + "%");
 	}
 })
 
